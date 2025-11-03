@@ -1,0 +1,36 @@
+/* Import da fonte */
+@font-face {
+    font-family: 'CircularStd';
+    src: url('/assets/fonts/circular-std/CircularStd-Medium.woff2') format('woff2'),
+         url('/assets/fonts/circular-std/CircularStd-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Estilizações globais */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Variáveis globais */
+:root{
+    /* Variáveis de cor raiz */
+    --cor-roxo: #351330;
+    --cor-lilas: #424254;
+    --cor-ciano: #64908A;
+    --cor-nude: #E8CAA4;
+    --cor-salmao: #CC2A41;
+
+    /* Variáveis de cor auxiliares */
+    --cor-cinza: #242424;
+    --cor-branco: #D9D9D9;
+
+    /* Variáveis de efeito */
+    --blur-glass-efect: 20px;
+    --shadow-botoes: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+    /* Variáveis de fonte */
+    --CircularStd: 'CircularStd', sans-serif;
+}
